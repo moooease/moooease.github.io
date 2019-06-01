@@ -1,0 +1,38 @@
+.about {
+    color: var(--black);
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+.about h3 {
+    margin: 0 0 35px 0;
+    font-size: 68px;
+    line-height: 1.1;
+}
+
+@media (max-width: 1600px) {
+    .about h3 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .about h3 {
+        font-size: 50px;
+    }    
+}
+
+@media (max-width: 769px) {
+    .about h3 {
+        font-size: 42px;
+    }    
+}
+
+@media (max-width: 479px) {
+    .about h3 {
+        font-size: 30px;
+    }    
+    
+}

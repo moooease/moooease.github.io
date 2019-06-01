@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 100vh;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#page-wrap {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 45px 20px 20px 20px;
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+h2 span {
+    font-weight: 100;
+}
+
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #999;
+    font-weight: normal;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    color: black;
+}
+
+ul {
+    margin: 0 0 14px 17px;
+}
+
+#objective {
+    width: 500px;
+    float: left;
+}
+
+#objective p {
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #666;
+}
+
+dt {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: right;
+    padding: 0 16px 0 0;
+    width: 150px;
+    float: left;
+    height: 100px;
+    border-right: 1px solid #999;
+}
+
+dd {
+    width: 600px;
+    float: right;
+}
+
+dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
+}
+
+@media (max-width: 769px) {
+    body {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    #page-wrap {
+        padding: 60px 10px 20px 10px;
+    }
+}
