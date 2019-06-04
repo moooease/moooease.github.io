@@ -3,13 +3,13 @@ boop.src = "/public/audio/67088__sunnysidesound__pop-2.mp3";
 
 window.addEventListener('mousedown', function (e) {
     $('body').append('<div class="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
-    boop.play();
+    // boop.play();
 });
 
 
 window.addEventListener('touchstart', function (e) {
     $('body').append('<div class="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
-    boop.play();
+    // boop.play();
 });
 
 function on() {
