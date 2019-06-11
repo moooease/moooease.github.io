@@ -125,7 +125,7 @@ a {
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 0px) {
     body {
         font-size: 16px;
     }
@@ -184,6 +184,7 @@ a {
 }
 
 .app-content {
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
