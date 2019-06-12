@@ -6,14 +6,15 @@
     --white: #ececec;
     --green: #2b4429;
     --dark-green: #162c16;
-    --yellow: #fcf808;
+    --yellow: #fce408;
     --gold: #ffd700;
-    --blue: #244ccf;
+    --blue: #314a9c;
     --dark-blue: #081f69;
-    --red: #FF1F25;
+    --red: #d1343a71;
     --dark-red: #942620;
     --grey: #70798c;
+    --dot: #ffee00;
 
-    --sans-serif: "neue-haas-unica", sans-serif;
+    --sans-serif: "questa-sans", sans-serif;
     --serif: "orpheuspro", serif;
 }

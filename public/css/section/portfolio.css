@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 0px) {
+@media (max-width: 320px) {
     .portfolio h3 {
         font-size: 30px;
     }

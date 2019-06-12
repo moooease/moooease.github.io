@@ -22,13 +22,13 @@ body {
     font-family: var(--sans-serif);
     color: var(--black);
     scroll-behavior: smooth;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: -.5px;
 }
 
 section {
-    min-height: 100%;
+    min-height: 100vh;
     padding: 30px 0;
     margin: 0px;
     display: flex;
@@ -40,8 +40,7 @@ section {
     position: relative;
     width: 85%;
     max-width: 1980px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 35px auto;
 }
 
 .four {
@@ -49,7 +48,7 @@ section {
 }
 
 .right {
-    margin-right: 25%;
+    margin-right: 40%;
 }
 
 p {
@@ -71,7 +70,7 @@ a {
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    background: var(--yellow);
+    background: var(--dot);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -125,130 +124,8 @@ a {
     }
 }
 
-@media (max-width: 0px) {
+@media (max-width: 320px) {
     body {
         font-size: 16px;
-    }
-}
-
-.black {
-    color: var(--black);
-}
-
-.white {
-    color: var(--white);
-}
-
-.green {
-    color: var(--green);
-}
-
-.dark-green {
-    color: var(--dark-green);
-}
-
-.yellow {
-    color: var(--yellow);
-}
-
-.gold {
-    color: var(--gold);
-}
-
-.blue {
-    color: var(--blue);
-}
-
-.dark-blue {
-    color: var(--dark-blue);
-}
-
-.red {
-    color: var(--red);
-}
-
-.dark-red {
-    color: var(--dark-red);
-}
-
-.grey {
-    color: var(--grey);
-}
-
-.sans-serif {
-    font-family: var(--sans-serif);
-}
-
-.serif {
-    font-family: var(--serif);
-}
-
-.app-content {
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.app-content::after {
-    content: "";
-    position: absolute;
-    z-index: 3;
-    height: 180%;
-    left: -40%;
-    top: -40%;
-    width: 180%;
-    pointer-events: none;
-    will-change: transform;
-    transition: opacity .6s ease-out;
-    -webkit-animation: noiseAnimation 1s steps(4) infinite;
-    animation: noiseAnimation 1s steps(4) infinite;
-    background-image: url(/public/images/noise.png);
-    opacity: 0.85;
-}
-
-@keyframes noiseAnimation {
-    0% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-    10% {
-        -webkit-transform: translate(-5%, -5%);
-        transform: translate(-5%, -5%);
-    }
-    20% {
-        -webkit-transform: translate(-10%, 5%);
-        transform: translate(-10%, 5%);
-    }
-    30% {
-        -webkit-transform: translate(5%, -10%);
-        transform: translate(5%, -10%);
-    }
-    40% {
-        -webkit-transform: translate(-5%, 15%);
-        transform: translate(-5%, 15%);
-    }
-    50% {
-        -webkit-transform: translate(-10%, 5%);
-        transform: translate(-10%, 5%);
-    }
-    60% {
-        -webkit-transform: translate(15%);
-        transform: translate(15%);
-    }
-    70% {
-        -webkit-transform: translateY(10%);
-        transform: translateY(10%);
-    }
-    80% {
-        -webkit-transform: translate(-15%);
-        transform: translate(-15%);
-    }
-    90% {
-        -webkit-transform: translate(10%, 5%);
-        transform: translate(10%, 5%);
-    }
-    to {
-        -webkit-transform: translate(5%);
-        transform: translate(5%);
     }
 }

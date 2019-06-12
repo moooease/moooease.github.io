@@ -1,16 +1,9 @@
-var boop = new Audio();
-boop.src = "/public/audio/67088__sunnysidesound__pop-2.mp3";
 
-window.addEventListener('mousedown', function (e) {
-    $('body').append('<div class="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
-    // boop.play();
-});
-
-
-window.addEventListener('touchstart', function (e) {
-    $('body').append('<div class="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
-    // boop.play();
-});
+setTimeout(function(){
+    if ($('#dot').length > 0) {
+      $('#dot').remove();
+    }
+  }, 3000)
 
 function on() {
     document.getElementById("overlay").style.display = "block";
@@ -20,3 +13,21 @@ function on() {
 function off() {
     document.getElementById("overlay").style.display = "none";
 }
+
+window.addEventListener('mousedown', function (e) {
+    if ($('#dot').length > 0) {
+        $('#dot').remove();
+        $('body').append('<div class="dot" id="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
+      } else {
+        $('body').append('<div class="dot" id="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
+      }
+});
+
+window.addEventListener('touchstart', function (e) {
+    if ($('#dot').length > 0) {
+        $('#dot').remove();
+        $('body').append('<div class="dot" id="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
+      } else {
+        $('body').append('<div class="dot" id="dot" style="top:' + e.pageY + 'px; left:' + e.pageX + 'px;"></div>');
+      }
+});

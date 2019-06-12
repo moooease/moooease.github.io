@@ -8,7 +8,7 @@
 
 .about h3 {
     margin: 0 0 35px 0;
-    font-size: 68px;
+    font-size: 64px;
     line-height: 1.1;
 }
 
@@ -30,7 +30,7 @@
     }    
 }
 
-@media (max-width: 0px) {
+@media (max-width: 320px) {
     .about h3 {
         font-size: 30px;
     }    
