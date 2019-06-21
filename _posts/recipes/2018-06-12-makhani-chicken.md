@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Makhani Chicken
+category: recipe
 ---
 
 ### Makhani Chicken
@@ -15,7 +16,7 @@ Serves: 6-8
 + Long Red Chiles - 2
 + Yellow Onion (roughly chopped) - 2 medium
 + Ginger (peeled) - 3 thumbs worth
-+ Ghee - 1/2 cup
++ Ghee - ½ cup
 + Tomato Paste - 3 tbsp
 + Turmeric - 2 tbsp
 + Chili Powder - 2 tbsp
@@ -37,7 +38,7 @@ Heat ghee in a large dutch oven over medium-high. Add the onion purée and cook 
 
 Add the tomato paste and spices, cook for 5 minutes, or until dark.
 
-Add in 1 & 1/2 cups water. Using a wooden spoon, scrape up any fond.
+Add in 1½ cups water. Using a wooden spoon, scrape up any fond.
 
 Stir in the tomato puree and fenugreek leaves and increase the heat to high. Bring to a boil, then reduce the heat to maintain a simmer. Cover and cook, stirring occasionally, until thick, about 1 hour. Add the chicken and cook until the chicken is cooked through, about 15 minutes more.
 

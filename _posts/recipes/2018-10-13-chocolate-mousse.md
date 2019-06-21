@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Chocolate Mousse
+category: recipe
 ---
 
 ### Chocolate Mousse

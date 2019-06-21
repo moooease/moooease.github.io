@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Chimichurri Steak Sandwich
+category: recipe
 ---
 
 ### Chimichurri Steak Sandwich
@@ -9,9 +10,9 @@ title:  Chimichurri Steak Sandwich
 
 Serves: 2
 
-+ Mint - 1/4 oz
++ Mint - ¼ oz
 + Basil - 2 oz
-+ Cilantro - 1/4 oz
++ Cilantro - ¼ oz
 + Celery - 1 stick
 + White Onion - 1
 + Jalapeno - 1

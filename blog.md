@@ -1,10 +1,10 @@
 ---
-title: recipes
+title: blog
 layout: page
 ---
 
-### Recipes
-{% assign sortedPosts = site.categories.recipe | sort: 'title' %}
+### Blog
+{% assign sortedPosts = site.categories.blog | sort: 'title' %}
 <ul>
   {% for post in sortedPosts %}
   <li>

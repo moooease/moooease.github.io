@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Grilled Caesar Chicken Sandwich
+category: recipe
 ---
 
 ### Grilled Caesar Chicken Sandwich
@@ -16,16 +17,16 @@ Serves: 4
 + Garlic Cloves (grated) - 2
 + Lemon Juice - 2 tbsp + 2 tsp
 + Black Pepper - 2 tsp
-+ Olive Oil - 1/3 cup + 1 tsp
++ Olive Oil - ⅓ cup + 1 tsp
 + Mayo - 6 tbsp
-+ Pickle (chopped) - 1/4 cup
++ Pickle (chopped) - ¼ cup
 + Brioche Buns - 4
-+ Cabbage (sliced) - 1/2
++ Cabbage (sliced) - ½
 + Crushed Red Pepper Flakes
 + Lettuce
 
 #### Directions
-Whisk mustard, worcestershire sauce, garlic, 2 tbsp lemon juice, and 2 tsp black pepper together. Stream in 1/3 cup olive oil until emulsified. Evenly separate mixture into 2 bowls, adding mayo, pickles, and salt (to taste) to one.
+Whisk mustard, worcestershire sauce, garlic, 2 tbsp lemon juice, and 2 tsp black pepper together. Stream in ⅓ cup olive oil until emulsified. Evenly separate mixture into 2 bowls, adding mayo, pickles, and salt (to taste) to one.
 
 Season chicken (w/ salt) and add to second bowl to marinate for 30 minutes (up to 4 hours).
 
